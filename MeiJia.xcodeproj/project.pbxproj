@@ -14,6 +14,7 @@
 		90EE724E2187B4590083C3B4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 90EE724C2187B4590083C3B4 /* LaunchScreen.storyboard */; };
 		90EE72592187B4590083C3B4 /* MeiJiaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90EE72582187B4590083C3B4 /* MeiJiaTests.swift */; };
 		90EE72642187B4590083C3B4 /* MeiJiaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90EE72632187B4590083C3B4 /* MeiJiaUITests.swift */; };
+		90EE727321882AA00083C3B4 /* welcome.png in Resources */ = {isa = PBXBuildFile; fileRef = 90EE727221882AA00083C3B4 /* welcome.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		90EE725F2187B4590083C3B4 /* MeiJiaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MeiJiaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		90EE72632187B4590083C3B4 /* MeiJiaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeiJiaUITests.swift; sourceTree = "<group>"; };
 		90EE72652187B4590083C3B4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		90EE727221882AA00083C3B4 /* welcome.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = welcome.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,6 +100,7 @@
 			isa = PBXGroup;
 			children = (
 				90EE72432187B4560083C3B4 /* AppDelegate.swift */,
+				90EE727221882AA00083C3B4 /* welcome.png */,
 				90EE72452187B4560083C3B4 /* ViewController.swift */,
 				90EE72472187B4560083C3B4 /* Main.storyboard */,
 				90EE724A2187B4590083C3B4 /* Assets.xcassets */,
@@ -193,6 +196,11 @@
 				TargetAttributes = {
 					90EE723F2187B4560083C3B4 = {
 						CreatedOnToolsVersion = 10.0;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+						};
 					};
 					90EE72532187B4590083C3B4 = {
 						CreatedOnToolsVersion = 10.0;
@@ -231,6 +239,7 @@
 			files = (
 				90EE724E2187B4590083C3B4 /* LaunchScreen.storyboard in Resources */,
 				90EE724B2187B4590083C3B4 /* Assets.xcassets in Resources */,
+				90EE727321882AA00083C3B4 /* welcome.png in Resources */,
 				90EE72492187B4560083C3B4 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
